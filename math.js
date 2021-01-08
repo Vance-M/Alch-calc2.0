@@ -1,5 +1,5 @@
 
-import {getAdd, getSub, getMult, getDiv, getExp} from './utils.js';
+
 
 const Input1 = document.getElementById('input1');
 const Input2 = document.getElementById('input2');
@@ -16,7 +16,7 @@ export function addHandler() {
 
     const finalResult = number1 + number2;
 
-    result.textContent=finalResult
+    result.textContent = finalResult;
 }
 
 
@@ -26,7 +26,7 @@ export function subHandler() {
 
     const finalResult = number1 - number2;
 
-    result.textContent=finalResult
+    result.textContent = finalResult;
 }
 
 
@@ -37,7 +37,7 @@ export function multHandler() {
 
     const finalResult = number1 * number2;
 
-    result.textContent=finalResult
+    result.textContent = finalResult;
 }
 
 
@@ -48,7 +48,7 @@ export function divHandler() {
 
     const finalResult = number1 / number2;
 
-    result.textContent=finalResult
+    result.textContent = finalResult;
 }
 
 
@@ -59,7 +59,7 @@ export function expHandler() {
 
     const finalResult = number1 ** number2;
 
-    result.textContent=finalResult
+    result.textContent = finalResult;
 }
 
 
